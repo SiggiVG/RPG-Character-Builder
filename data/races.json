@@ -1,0 +1,45 @@
+{
+  "races": [
+    {
+      "unlocalizedName":"norsmenn",
+      "class":"model.creatures.races.RaceHuman",
+      "scores":{
+        "str":{"mod":1,"roll":"4d6d1r1","descript":"norsmenn are warlike and many believe in the tenants of power."},
+        "dex":{"mod":0,"roll":"4d6d1r1"},
+        "con":{"mod":1,"roll":"4d6d1r1","descript":"norsmenn are a hardy folk, dwelling in the frigid lands far to the north of the world"},
+        "int":{"mod":0,"roll":"4d6d1r1"},
+        "wil":{"mod":1,"roll":"4d6d1r1","descript":"norsmenn are a tenacious folk."},
+        "cha":{"mod":0,"roll":"4d6d1r1"},
+        "dev":{"mod":1,"roll":"4d6d1r1","descript":"norsmenn are a superstitious folk."},
+        "fav":{"mod":0}
+      },
+      "ages":[
+        0,2,4,9,16,30,45,55,65
+      ],
+      "height":{
+        "_comment":"norsmenn take a -1, but get an extra d6 over other humans, so they can have as much as +5 inches over other humans",
+        "mod":-1,"roll":"3d6","descript":"norsmenn tend to be taller than the other races of men."
+      }
+    },
+    {
+      "unlocalizedName":"dvergr",
+      "class":"model.creatures.races.RaceDwarf",
+      "scores":{
+        "str":{"mod":2,"roll":"4d6d1r1"},
+        "dex":{"mod":0,"roll":"4d6d1r1"},
+        "con":{"mod":2,"roll":"4d6d1r1"},
+        "int":{"mod":1,"roll":"4d6d1r1"},
+        "wil":{"mod":0,"roll":"4d6d1r1"},
+        "cha":{"mod":0,"roll":"4d6d1r1"},
+        "dev":{"mod":0,"roll":"4d6d1r1"},
+        "fav":{"mod":0}
+      },
+      "ages":[
+        0,2,8,16,32,50,75,95,110
+      ],
+      "height":{
+        "mod":-13,"roll":"2d4","descript":"dvergr are a short, stocky folk"
+      }
+    }
+  ]
+}
